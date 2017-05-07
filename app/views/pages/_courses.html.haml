@@ -23,14 +23,14 @@
             %i.fa.fa-calendar.pr-10
             = t ".start"
             = ":"
-            = course.date_start
+            = course.date_start.strftime("%A, %d %b %Y")
             = succeed course.time_start.strftime("%l %M %p") do
               %i.fa.fa-clock-o.pl-10.pr-10
             %br
             %i.fa.fa-calendar.pr-10
             = t ".finish"
             = ":"
-            = course.date_finish 
+            = course.date_finish.strftime("%A, %d %b %Y") 
           %h5
             %i.fa.fa-map-marker.pr-10
             = course.location 
