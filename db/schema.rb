@@ -82,7 +82,7 @@ ActiveRecord::Schema.define(version: 20170507110745) do
     t.datetime "created_at",                             null: false
     t.datetime "updated_at",                             null: false
     t.string   "name"
-    t.integer  "mobile"
+    t.string   "mobile"
     t.boolean  "admin",                  default: false, null: false
     t.string   "locale",                 default: "en",  null: false
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
