@@ -6,6 +6,7 @@ class SubscribeToNewsletterService
   end
 
   def call
+      mobile = @user.mobile.present? ? @user.mobile : ""
       @gibbon.lists(@list_id).members.create(
         body: {
           email_address: @user.email,
@@ -13,7 +14,7 @@ class SubscribeToNewsletterService
           merge_fields: {
             FNAME: @user.name,
             LOCALE: @user.locale,
-            MOBILE: @user.mobile
+            MOBILE: mobile
           }
         }
       )
