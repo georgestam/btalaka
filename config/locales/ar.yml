@@ -222,6 +222,7 @@ ar:
     shared:
       footer:
         email: الإيميل
+        mobile: Mobile
         name: الأسم
         subscribe: اشترك
     starfish_title: مشروع ستارفيش العربي

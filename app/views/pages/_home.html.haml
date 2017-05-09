@@ -43,7 +43,8 @@
                   -# = flash[:notice]
                   = f.input :name, label: false, placeholder: I18n.t('views.shared.footer.name' ), required: true
                   = f.input :email, label: false, placeholder: I18n.t('views.shared.footer.email' ), required: true
-                  = f.button :submit, I18n.t('views.shared.footer.subscribe' ), class: "btn btn-lg btn-default.btn-animated margin-clear", id: "register"
+                  = f.input :mobile, label: false, placeholder: I18n.t('views.shared.footer.mobile' )
+                  = f.button :submit, I18n.t('views.shared.footer.subscribe' ), class: "btn btn-lg btn-default.btn-animated margin-clear", id: "register", style:"margin-top:20px !important"
                         
                                       
                       

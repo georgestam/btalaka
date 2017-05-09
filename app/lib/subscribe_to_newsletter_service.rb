@@ -12,7 +12,8 @@ class SubscribeToNewsletterService
           status: "subscribed",
           merge_fields: {
             FNAME: @user.name,
-            LOCALE: @user.locale
+            LOCALE: @user.locale,
+            MOBILE: @user.mobile
           }
         }
       )
