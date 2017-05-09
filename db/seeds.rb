@@ -1,4 +1,4 @@
-require 'faker'
+srequire 'faker'
 
 User.destroy_all
 Article.destroy_all
@@ -8,7 +8,7 @@ Course.destroy_all
 admin = User.new({
 
     email: "rakan@starfishproject.ae",
-    password: "password",
+    password: "password10",
     name: "rakan",
     admin: true
     })
