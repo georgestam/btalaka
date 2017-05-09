@@ -1,4 +1,4 @@
-srequire 'faker'
+require 'faker'
 
 User.destroy_all
 Article.destroy_all
