@@ -8,6 +8,7 @@ class PagesController < ApplicationController
     @articles = Article.where(locale: I18n.locale).last(4)
     @stories = Story.where(locale: I18n.locale)
     
+    # text direction for index page only
     if I18n.locale == :ar
       @dir = "rtl"
     else 
