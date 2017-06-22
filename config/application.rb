@@ -56,9 +56,9 @@ module SFUAE
         Devise::Engine.routes.default_url_options
       ].each do |config|
 
-        config[:host] = host
-        config[:port] = port if port
-        config[:protocol] = protocol
+        config[:host] = self.host
+        config[:port] = self.port if self.port
+        config[:protocol] = self.protocol
         config[:only_path] = false
         
       end
