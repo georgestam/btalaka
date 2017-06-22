@@ -2,7 +2,7 @@
 %section.pv-30
   .container
     .row
-      .col-md-6
+      .col-md-8.col-md-offset-2
         %br/
         %div{:role => "tabpanel"}
           / Nav tabs
@@ -23,27 +23,19 @@
           .tab-content{dir: @dir}
             #first.tab-pane.fade.in.active{:role => "tabpanel"}
               .embed-responsive.embed-responsive-16by9
-                %iframe.embed-responsive-item{:src => "//player.vimeo.com/video/29198414?byline=0&portrait=0"}
-                %p
-                  %a{:href => "http://vimeo.com/29198414"} Introducing Vimeo Music Store
-                  from
-                  %a{:href => "http://vimeo.com/staff"} Vimeo Staff
-                  on
-                  = succeed "." do
-                    %a{:href => "https://vimeo.com"} Vimeo
+                %iframe.embed-responsive-item{:allowfullscreen => "", :frameborder => "0", :height => "480", :src => "https://www.youtube.com/embed/ELVs1hHnfV4?rel=0&showinfo=0", :width => "853"}
             #second.tab-pane.fade{:role => "tabpanel"}
               = t '.free_support_description_html'
             #third.tab-pane.fade{:role => "tabpanel"}
               = t '.the_starfish_story_description_html'
             #fourth.tab-pane.fade{:role => "tabpanel"}
               = t '.what_is_stuttering_description_html'
-      .col-md-6{dir: @dir}
-        %p
-          %p
-            %strong 
-              = t ".who_we_are_title"
-          %p 
-            = t ".who_we_are_description_html"
+      -# .col-md-6{dir: @dir}
+      -#   %p
+      -#     %strong 
+      -#       = t ".who_we_are_title"
+      -#   %p 
+      -#     = t ".who_we_are_description_html"
   %br/      
 / section end
 
