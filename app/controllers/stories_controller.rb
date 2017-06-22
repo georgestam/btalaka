@@ -2,6 +2,7 @@ class StoriesController < ApplicationController
   
   skip_before_action :authenticate_user!, only: %i[index show]
   before_action :destroy_user_if_current_user, only: %i[index show]
+  before_action :set_text_direction, only: %i[index show]
   
   def index
     @stories = Story.where(locale: I18n.locale)
@@ -17,6 +18,13 @@ class StoriesController < ApplicationController
   end
 
   private
+  
+  def set_text_direction 
+    if I18n.locale == :ar
+      @direction = "rtl"
+    else 
+      @direction = "ltr"
+  end 
 
   def story_params
     params.require(:story).permit(:title, :description, :locale, :photo, :photo_cache)

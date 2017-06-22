@@ -7,6 +7,12 @@ class PagesController < ApplicationController
     @courses = Course.where(locale: I18n.locale).sort_by(&:date_start).last(4)
     @articles = Article.where(locale: I18n.locale).last(4)
     @stories = Story.where(locale: I18n.locale)
+    
+    if I18n.locale == :ar
+      @dir = "rtl"
+    else 
+      @dir = "ltr"
+    end 
   end
   
   def coming_soon

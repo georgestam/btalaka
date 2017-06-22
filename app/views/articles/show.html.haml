@@ -35,7 +35,7 @@
                 = @article.title
               %p
                 %span
-                  Published on #{@article.created_at.strftime("%B %d %Y")}
+                  = @article.created_at.strftime("%B %d %Y")
               %hr{:style => "margin-bottom:10px"}/
               .row
                 .col-sm-12.prose

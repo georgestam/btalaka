@@ -2,6 +2,7 @@ class ArticlesController < ApplicationController
   
   skip_before_action :authenticate_user!, only: %i[index show]
   before_action :destroy_user_if_current_user, only: %i[index show]
+  before_action :set_text_direction, only: %i[index show]
   
   def index
     @articles = Article.where(locale: I18n.locale)
@@ -17,6 +18,15 @@ class ArticlesController < ApplicationController
   end
 
   private
+  
+  # text direction for index page only
+  def set_text_direction
+    if I18n.locale == :ar
+      @direction = "rtl"
+    else 
+      @direction = "ltr"
+    end
+  end 
 
   def article_params
     params.require(:article).permit(:title, :description, :locale, :photo, :photo_cache)
