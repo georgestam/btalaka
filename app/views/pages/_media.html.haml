@@ -8,7 +8,7 @@
   .container
     .row
       .col-md-8
-        %h3
+        %h3{dir: @dir}
           = t (".latest")
           %span.text-default 
             = t (".news")
@@ -21,11 +21,10 @@
                   client_hints: true,                                                                
                   transformation: [{dpr:"auto"}], 
                   class: "media-object"                           
-              .media-body
+              .media-body{dir: @dir}
                 %h5.media-heading
                   = link_to article.title, article_path(article)
                 %p.small
-                  %i.fa.fa-calendar.pr-10>
                   = article.created_at.strftime("%B %d %Y")
                 %p.margin-clear.small 
                   = article.description.first(200).html_safe
@@ -34,14 +33,14 @@
               %hr
           = link_to t('.more_news'), articles_path, class: "btn btn-dark"
       .col-md-4
-        %h3
+        %h3{dir: @dir}
           = t (".top")
           %span.text-default 
             = t (".stories")
         .separator-2
         .owl-carousel.content-slider-with-large-controls-autoplay.dark-controls.light-gray-bg.buttons-hide
           - @stories.each do |story|
-            .image-box.style-2
+            .image-box.style-2{dir: @dir}
               .overlay-container.overlay-visible
                 = cl_image_tag story.photo.presence || "at/apple.jpg",                               
                   client_hints: true,                                                                

@@ -20,7 +20,7 @@
               %a{"aria-controls" => "messages", "data-toggle" => "tab", :href => "#fourth", :role => "tab"} 
                 = t '.what_is_stuttering'
           / Tab panes
-          .tab-content
+          .tab-content{dir: @dir}
             #first.tab-pane.fade.in.active{:role => "tabpanel"}
               .embed-responsive.embed-responsive-16by9
                 %iframe.embed-responsive-item{:src => "//player.vimeo.com/video/29198414?byline=0&portrait=0"}
@@ -37,7 +37,7 @@
               = t '.the_starfish_story_description_html'
             #fourth.tab-pane.fade{:role => "tabpanel"}
               = t '.what_is_stuttering_description_html'
-      .col-md-6
+      .col-md-6{dir: @dir}
         %p
           %p
             %strong 
