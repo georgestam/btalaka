@@ -5,7 +5,8 @@ class ArticlesController < ApplicationController
   before_action :set_text_direction, only: %i[index show]
   
   def index
-    @articles = Article.where(locale: I18n.locale)
+    # @articles = Article.where(locale: I18n.locale)
+    @articles = Article.all
     policy_scope(Article)
   end
 
@@ -18,15 +19,6 @@ class ArticlesController < ApplicationController
   end
 
   private
-  
-  # text direction for index page only
-  def set_text_direction
-    if I18n.locale == :ar
-      @direction = "rtl"
-    else 
-      @direction = "ltr"
-    end
-  end 
 
   def article_params
     params.require(:article).permit(:title, :description, :locale, :photo, :photo_cache)

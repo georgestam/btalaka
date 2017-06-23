@@ -8,7 +8,8 @@
   .container
     .row
       .col-md-8
-        %h3{dir: @dir}
+        -# %h3{dir: @dir}
+        %h3
           = t (".latest")
           %span.text-default 
             = t (".news")
@@ -33,7 +34,8 @@
               %hr
           = link_to t('.more_news'), articles_path, class: "btn btn-dark"
       .col-md-4
-        %h3{dir: @dir}
+        -# %h3{dir: @dir}
+        %h3
           = t (".top")
           %span.text-default 
             = t (".stories")

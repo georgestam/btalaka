@@ -47,6 +47,15 @@ class ApplicationController < ActionController::Base
   
   private
   
+  def set_text_direction 
+    if I18n.locale == :ar
+      # @direction = "rtl"
+      @direction = "ltr"
+    else 
+      @direction = "ltr"
+    end 
+  end 
+  
   def extract_locale_from_accept_language_header
     language = request.env['HTTP_ACCEPT_LANGUAGE'].presence
     language ? HttpAcceptLangParser.parse(language) : nil

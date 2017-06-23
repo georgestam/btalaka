@@ -6,6 +6,7 @@ class StoriesController < ApplicationController
   
   def index
     @stories = Story.where(locale: I18n.locale)
+    @stories = Story.all
     policy_scope(Story)
   end
 
@@ -18,13 +19,6 @@ class StoriesController < ApplicationController
   end
 
   private
-  
-  def set_text_direction 
-    if I18n.locale == :ar
-      @direction = "rtl"
-    else 
-      @direction = "ltr"
-  end 
 
   def story_params
     params.require(:story).permit(:title, :description, :locale, :photo, :photo_cache)

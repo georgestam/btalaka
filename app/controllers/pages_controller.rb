@@ -5,8 +5,11 @@ class PagesController < ApplicationController
 
   def index
     @courses = Course.where(locale: I18n.locale).sort_by(&:date_start).last(4)
-    @articles = Article.where(locale: I18n.locale).last(4)
-    @stories = Story.where(locale: I18n.locale)
+    # @articles = Article.where(locale: I18n.locale).last(4)
+    # @stories = Story.where(locale: I18n.locale)
+    
+    @articles = Article.all.last(4)
+    @stories = Story.all
     
     # text direction for index page only
     if I18n.locale == :ar
