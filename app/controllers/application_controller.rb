@@ -42,7 +42,6 @@ class ApplicationController < ActionController::Base
         sign_out(current_user)
       end
     end
-    @user = User.new
   end 
   
   private
