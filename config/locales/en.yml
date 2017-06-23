@@ -45,9 +45,9 @@ en:
               id est laborum.
             p7: Many thanks for joining us!
             p8: I am the coolest Rakan
-            welcome_to_starfish: Welcome to starfish
   pages:
     coming_soon:
+      coming_soon: Coming soon
       coming_soon_decription: Coming soon
     courses:
       apply_now: Apply now
@@ -118,16 +118,6 @@ en:
       testimonial3_short_recomendation: Testimonial3 short recomendation
       testimonial3_title: Testimonial3 title
     summary:
-      feature1_description: |
-        • The Starfish telephone support list,
-        • A personalized programme for your continued recovery.
-        • No charge refresher courses.
-        • Regular Starfish Skype conference support group with world-wide members helping each other.
-      feature1_title: Free support
-      feature2_description: feature1_description
-      feature2_title: feature2_description
-      feature3_description: feature2_title
-      feature3_title: feature3_title
       features_description: Your training does not end after the three day initial
         course, for it is now that The Starfish Project on-going care begins with
         FREE lifetime support, which is so essential to your recovery.
@@ -205,8 +195,6 @@ en:
         individuals. Whilst other disorders are characterised by disfluent speech,
         the patterns of disfluency in these other disorders differ from that seen
         in developmental stuttering."
-      who_we_are_description_html: ''
-      who_we_are_title: ''
   shared:
     footer:
       starfish_address: Soon!
@@ -245,6 +233,7 @@ en:
       index:
         articles: Articles
     pages:
+      form: Form
       summary:
         image_title1: Image title1
         image_title2: Image title2

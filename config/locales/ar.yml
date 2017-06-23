@@ -45,9 +45,9 @@ ar:
               id est laborum.
             p7: Many thanks for joining us!
             p8: I am the coolest Rakan
-            welcome_to_starfish: Welcome to starfish
   pages:
     coming_soon:
+      coming_soon: Coming soon
       coming_soon_decription: قريبا
     courses:
       apply_now: قدم طلب
@@ -123,16 +123,6 @@ ar:
       testimonial3_short_recomendation: Testimonial3 short recomendation
       testimonial3_title: Testimonial3 title
     summary:
-      feature1_description: |
-        • The Starfish telephone support list,
-        • A personalized programme for your continued recovery.
-        • No charge refresher courses.
-        • Regular Starfish Skype conference support group with world-wide members helping each other.
-      feature1_title: دعم مدى الحياة
-      feature2_description: feature1_description
-      feature2_title: feature2_description
-      feature3_description: feature2_title
-      feature3_title: feature3_title
       features_description: لا ينتهي تدريبك بانتهاء دورة الثلاث أيام الأولية، بل تبدأ
         عناية مشروع ستارفيش المستمرة بدعم مجاني يستمر مدى حياتك، وهو الأساسي لتعافيك.
       features_moto: نحن هنا لمساعدتكم
@@ -175,8 +165,6 @@ ar:
         نحن لا نعلم سبب التلعثم، لكن أظهرت الأبحاث أن هناك عدة عوامل مؤثرة: عدد المتلعثمين من الذكور يفوق عدد الإناث بأربع مرات، وتظهر الإحصائيات وجود أكثر من 400000 بالغ في دول مجلس التعاون الخليجي يتلعثمون، وهذا يشكل حوالي 1% من تعداد البالغين.
 
         من الضروري أن ندرك اختلاف الأفراد المتلعثمين عن بعضهم، واختلاف تلعثمهم، كل شخص هو حالة، ويجب على أي تدريب أو علاج أن يحترم ذلك، لذا يعتبر كل شخص هو الخبير بتلعثمه، الاعتراف واحترام هذه الحقائق الهامة هو أساس مشروع نجم البحر ونجاحه في مساعدة الناس في تعافيهم، التلعثم هو اضطراب في الطلاقة، ويتجلى بسلوكيات تؤثر في سلاسة الكلام، لدى جميع الأشخاص عسر في الطلاقة لحد ما، الذي يميز المتلعثمين عن غير المتلعثمين هو تكرار و/أو حدة عسر الطلاقة لديهم. والعامل الآخر الذي يميز بينهم هو ترافق التلعثم مع شعور بفقدان السيطرة، إن فقدان السيطرة هذا، الذي لا يشعر به المستمع أو يلاحظه، هو المشكلة الأكبر لدى المتلعثم.
-      who_we_are_description_html: Who we are description html
-      who_we_are_title: Who we are title
   shared:
     footer:
       starfish_address: قريبا!
@@ -215,6 +203,7 @@ ar:
       index:
         articles: المقالات
     pages:
+      form: Form
       summary:
         image_title1: Image title1
         image_title2: Image title2

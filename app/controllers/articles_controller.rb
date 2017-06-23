@@ -1,7 +1,6 @@
 class ArticlesController < ApplicationController
   
   skip_before_action :authenticate_user!, only: %i[index show]
-  before_action :destroy_user_if_current_user, only: %i[index show]
   before_action :set_text_direction, only: %i[index show]
   
   def index

@@ -36,14 +36,6 @@ class ApplicationController < ActionController::Base
     { locale: I18n.locale == I18n.default_locale ? nil : I18n.locale }
   end
   
-  def destroy_user_if_current_user
-    if current_user
-      unless current_user.admin
-        sign_out(current_user)
-      end
-    end
-  end 
-  
   private
   
   def set_text_direction 
