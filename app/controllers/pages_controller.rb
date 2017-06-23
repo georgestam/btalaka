@@ -13,10 +13,10 @@ class PagesController < ApplicationController
     @stories = Story.all
     
     # text direction for index page only
-    if I18n.locale == :ar
-      @dir = "rtl"
+    @dir = if I18n.locale == :ar
+      "rtl"
     else 
-      @dir = "ltr"
+      "ltr"
     end 
   end
   
