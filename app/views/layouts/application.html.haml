@@ -36,9 +36,8 @@
     = render 'shared/navbar_selector'
     = render 'shared/flashes'
     = yield
-    = render 'shared/footer'
+    = render 'shared/footer' unless action_name == "form"
     = javascript_include_tag 'application'
-    %script{:async => "", "data-trackduck-id" => "590218e49106930117d90167", :src => "//cdn.trackduck.com/toolbar/prod/td.js"}
     -# google analitics
     
     :javascript
