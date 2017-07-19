@@ -18,28 +18,29 @@
           %span.text-default 
             = t'.upcoming_courses'
         .separator-2
-        - @courses.reverse.each do |course|
-          .small
-            %i.fa.fa-calendar.pr-10
-            = t ".start"
-            = ":"
-            = course.date_start.strftime("%A, %d %b %Y")
-            = succeed course.time_start.strftime("%l %M %p") do
-              %i.fa.fa-clock-o.pl-10.pr-10
-            %br
-            %i.fa.fa-calendar.pr-10
-            = t ".finish"
-            = ":"
-            = course.date_finish.strftime("%A, %d %b %Y") 
-          %h5
-            %i.fa.fa-map-marker.pr-10
-            = course.location 
-          = course.description
-          %hr
-        %a.btn.btn-gray-transparent.btn-sm.btn-animated.scrollspy.margin-clear.smooth-scroll{:href => "#subscribe"}
-          = t '.apply_now'
-          %i.fa.fa-arrow-right.pl-20
-        %br
+        - if @courses.any?
+          - @courses.reverse.each do |course|
+            .small
+              %i.fa.fa-calendar.pr-10
+              = t ".start"
+              = ":"
+              = course.date_start.strftime("%A, %d %b %Y")
+              = succeed course.time_start.strftime("%l %M %p") do
+                %i.fa.fa-clock-o.pl-10.pr-10
+              %br
+              %i.fa.fa-calendar.pr-10
+              = t ".finish"
+              = ":"
+              = course.date_finish.strftime("%A, %d %b %Y") 
+            %h5
+              %i.fa.fa-map-marker.pr-10
+              = course.location 
+            = course.description
+            %hr
+          %a.btn.btn-gray-transparent.btn-sm.btn-animated.scrollspy.margin-clear.smooth-scroll{:href => "#subscribe"}
+            = t '.apply_now'
+            %i.fa.fa-arrow-right.pl-20
+          %br
         
 
 / section start
