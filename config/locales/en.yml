@@ -19,14 +19,14 @@ en:
               and ask you to wear any gadget or device. Our aim is to provide decent,
               effective therapy with free lifetime support, to as many people who
               stutter as possible, to control stuttering.
-            p3: 'If you have any questions, suggestions or issues you can just reply
-              to this email. My name is Rakan, and I''ll get back to you quickly. '
-            p4: 'From now on you will enjoy of being part of our amazng community
-              for people who stutter. '
+            p3: If you have any questions, suggestions or issues you can just reply
+              to this email. My name is Rakan, and I will get back to you quickly.
+            p4: From now on you will enjoy of being part of our amazing community
+              for people who stutter.
             p5: ''
             p6: ''
             p7: ''
-            p8: Rakan
+            p8: Rakan Otaibi
   pages:
     coming_soon:
       coming_soon: Coming soon
@@ -56,7 +56,7 @@ en:
         there is plenty of opportunity to practise your new technique in a relaxed
         social situation and around the table during dinner, together with everyone
         else on the course, in the hotel restaurant.
-      courses_title: Courses title
+      courses_title: 
       finish: Finish
       graduates: Refreshers
       number_of_courses: 220
@@ -74,10 +74,8 @@ en:
     media:
       more_news: More news
       more_stories: More stories
-      testimonial1_long_recomendation: 'testimonial1_long_recomendation
-
-'
-      testimonial1_name: testimonial1_name
+      testimonial1_long_recomendation: ‘My experience in Starfish has changed my life and made me energetic productive person!
+      testimonial1_name: Dr. Hassan Allam
       testimonial1_short_recomendation: Changed my Life!
       testimonial1_title: ''
       testimonial2_long_recomendation: |-
@@ -86,13 +84,7 @@ en:
       testimonial2_name: Eng. Abdullah AlAzizi
       testimonial2_short_recomendation: Proud recovering stammerer!
       testimonial2_title: ''
-      testimonial3_long_recomendation: Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum
+      testimonial3_long_recomendation: Starfish changed my life, 
       testimonial3_name: Abdulaziz AlKhasrami
       testimonial3_short_recomendation: Thanks Mom for telling me about Starfish!
       testimonial3_title: ''
@@ -121,9 +113,9 @@ en:
         an entrepreneur mind.
       team1_name: Rakan AlOtaibi
       team1_title: Mechanical Engineer & Entrepreneur
-      team2_description: My mission is to help other people who stutter.
+      team2_description: Passionate scientist with a PhD in medical Virology, keen on helping stutterers overcome their obstacles
       team2_name: Shaihana AlMatrrouk
-      team2_title: Co-founder of Starfish Project Arabia
+      team2_title: Viral oncology (PhD)
     who_we_are:
       free_support: Free support
       free_support_description_html: "<p><strong>Your training does not end after
@@ -178,7 +170,7 @@ en:
     footer:
       contact_us: Contact us
       contact_us_description: If you have any questions, suggestions or issues you can send us an email or call us.
-      starfish_address: Dubai
+      starfish_address: GCC
       starfish_email: rakan@starfishproject.ae
       starfish_mobile: 966563556865
     navbar:
@@ -223,7 +215,7 @@ en:
       footer:
         email: email
         mobile: Mobile (optional)
-        name: Name
+        name: name
         subscribe: Subscribe
     starfish_title: Starfish Project Arabia
     stories:
