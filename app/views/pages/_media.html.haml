@@ -2,6 +2,9 @@
 
   .story-margin
     margin: 0 0 20px 0 !important
+  
+  #story-picture
+    display: inline !important
 
 #media.linked
 %section.section.clearfix
@@ -49,7 +52,8 @@
                   = cl_image_tag story.photo.presence || "at/apple.jpg",                               
                     client_hints: true,                                                                
                     transformation: [{dpr:"auto"}], 
-                    class: "media-object"
+                    class: "media-object",
+                    id: "story-picture"
                   = link_to story_path(story), class: "overlay-link" do
                     %i.fa.fa-link
                 .body.padding-horizontal-clear
