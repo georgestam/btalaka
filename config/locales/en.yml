@@ -56,13 +56,14 @@ en:
         there is plenty of opportunity to practise your new technique in a relaxed
         social situation and around the table during dinner, together with everyone
         else on the course, in the hotel restaurant.
-      courses_title: 
+      courses_title: Courses
       finish: Finish
       graduates: Refreshers
       number_of_courses: 220
       number_of_graduates: 2000
       number_of_hours: 6600
       start: Start
+      upcoming_courses: Upcoming courses
       working_hours: Working hours
     home:
       apply_now: Apply now
@@ -74,7 +75,8 @@ en:
     media:
       more_news: More news
       more_stories: More stories
-      testimonial1_long_recomendation: ‘My experience in Starfish has changed my life and made me energetic productive person!
+      testimonial1_long_recomendation: "‘My experience in Starfish has changed my
+        life and made me energetic productive person!"
       testimonial1_name: Dr. Hassan Allam
       testimonial1_short_recomendation: Changed my Life!
       testimonial1_title: ''
@@ -84,7 +86,7 @@ en:
       testimonial2_name: Eng. Abdullah AlAzizi
       testimonial2_short_recomendation: Proud recovering stammerer!
       testimonial2_title: ''
-      testimonial3_long_recomendation: Starfish changed my life, 
+      testimonial3_long_recomendation: Starfish changed my life,
       testimonial3_name: Abdulaziz AlKhasrami
       testimonial3_short_recomendation: Thanks Mom for telling me about Starfish!
       testimonial3_title: ''
@@ -113,7 +115,8 @@ en:
         an entrepreneur mind.
       team1_name: Rakan AlOtaibi
       team1_title: Mechanical Engineer & Entrepreneur
-      team2_description: Passionate scientist with a PhD in medical Virology, keen on helping stutterers overcome their obstacles
+      team2_description: Passionate scientist with a PhD in medical Virology, keen
+        on helping stutterers overcome their obstacles
       team2_name: Shaihana AlMatrrouk
       team2_title: Viral oncology (PhD)
     who_we_are:
@@ -169,7 +172,8 @@ en:
   shared:
     footer:
       contact_us: Contact us
-      contact_us_description: If you have any questions, suggestions or issues you can send us an email or call us.
+      contact_us_description: If you have any questions, suggestions or issues you
+        can send us an email or call us.
       starfish_address: GCC
       starfish_email: rakan@starfishproject.ae
       starfish_mobile: 966563556865
