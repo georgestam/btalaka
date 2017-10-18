@@ -28,7 +28,7 @@ module SFUAE
       elsif staging?
         'sf-uea-staging.herokuapp.com'
       else
-        'sf-uea.herokuapp.com'
+        'starfishproject.io'
       end
     end
 
