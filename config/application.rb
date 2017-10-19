@@ -44,7 +44,7 @@ module SFUAE
       if development_or_test?
         'http'
       else
-        'http'
+        'https'
       end
     end
 
