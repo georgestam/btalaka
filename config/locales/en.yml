@@ -175,7 +175,7 @@ en:
       contact_us_description: If you have any questions, suggestions or issues you
         can send us an email or call us.
       starfish_address: GCC
-      starfish_email: rakan@starfishproject.ae
+      starfish_email: speak@starfishproject.io
       starfish_mobile: 966563556865
     navbar:
       contact: Contact
@@ -189,7 +189,7 @@ en:
       home: Home
     navbar_top:
       arabic: Arabic
-      email: rakan@starfishproject.ae
+      email: speak@starfishproject.io
       english: English
       login: Login
       phone: 966563556865
