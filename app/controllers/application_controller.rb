@@ -27,7 +27,7 @@ class ApplicationController < ActionController::Base
   end
   
   def set_locale #  i18n
-    I18n.locale = params[:locale] || current_user.try(:locale) || extract_locale_from_accept_language_header || I18n.default_locale
+    I18n.locale = params[:locale] || current_user.try(:locale) || extract_locale_from_accept_language_header || :ar
     yield
     I18n.locale = I18n.default_locale
   end
