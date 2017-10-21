@@ -115,13 +115,13 @@
 #top-bar
   .container
     .row
-      .col-sm-6.hidden-xs
+      .col-sm-6
         .cs-top-left
           .cs-top-module.cs-module-text
-            %i.cs-in.fa.fa-phone>
+            %i.cs-in.fa.fa-whatsapp
             = t '.phone'
           .cs-top-module.cs-module-link
-            %i.cs-in.fa.fa-envelope-o>
+            %i.cs-in.fa.fa-envelope-o
             -# %a{:href => "mailto:info@wedproductions.com", :target => ""}
             = t '.email'
       .col-xs-12.col-sm-6
@@ -129,7 +129,7 @@
           .cs-top-module.cs-module-wpml
             .cs-top-modal.cs-lang-top-modal
               %a.cs-open-modal1
-                %i.cs-in.fa.fa-globe>
+                %i.cs-in.fa.fa-globe
                 - if I18n.locale == :ar
                   = link_to (t '.english'), url_for( :locale => 'en'), id: "change-to-english"
                 - else
