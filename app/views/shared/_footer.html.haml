@@ -8,11 +8,11 @@
       .footer-inner
         .row
           .col-xs-12.col-md-5.col-md-push-2
-            = cl_image_tag "ST-UEA/starfish-logo.png",                               
+            = cl_image_tag "btalaka/btalaka.png",                               
               client_hints: true,                                                                
               transformation: [{dpr:"auto", gravity:"", crop:"fill"}], 
               class: "img-responsive center-block img-rounded-half",                             
-              style: "margin: 20px 0 20px 0"
+              style: "margin: 50px; width: 1000px" 
   
           .col-xs-12.col-md-4.col-md-push-4
             .footer-content
@@ -21,7 +21,7 @@
               .separator-2
               %p 
                 = t('.contact_us_description')
-              %ul.social-links.circle.animated-effect-1
+              -# %ul.social-links.circle.animated-effect-1
                 %li.twitter
                   %a{:href => "https://twitter.com/r4k4n", :target => "_blank"}
                     %i.fa.fa-twitter
@@ -50,11 +50,10 @@
           .col-md-12
             %p.text-center
               Copyright © 
-              = "2016-"
               = DateTime.now.year  
               = t 'views.starfish_title'
-              by
-              = succeed "." do
+              -# by
+              -# = succeed "." do
                 %a{:href => "http://newwaves.design", :target => "_blank"} New Waves Design 
               All Rights Reserved
 
