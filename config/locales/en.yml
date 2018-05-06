@@ -60,10 +60,9 @@ en:
     home:
       apply_now: Apply now
       call_to_action: Apply now
-      home_subtitle_1: Supportive Training and Recovery For Individual Stammerers
-        Harmony
+      home_subtitle_1: Learn how to breathe and and unleash your potential
       home_subtitle_2: ''
-      home_title: Btalaka Project Arabia
+      home_title: Btalaka Project 
     summary:
       features_description: Your training does not end after the three day initial
         course, for it is now that The Btalaka Project on-going care begins with FREE
@@ -114,7 +113,7 @@ en:
         mobile: Mobile (optional)
         name: name
         subscribe: Subscribe
-    starfish_title: Btalaka Project Arabia
+    starfish_title: Btalaka Project
     stories:
       index:
         stories: Stories
