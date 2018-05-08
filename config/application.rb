@@ -64,9 +64,9 @@ module Btalaka
       end
     end
 
-    config.i18n.default_locale = :ar
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}').to_s]
-
+    config.i18n.default_locale = :ar
+    
     config.generators do |generate|
       generate.assets false
     end

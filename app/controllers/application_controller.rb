@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   before_action :authenticate_user!
   skip_before_action :verify_authenticity_token
   
-  around_action :set_locale
+  # around_action :set_locale
   
   include Pundit
   
